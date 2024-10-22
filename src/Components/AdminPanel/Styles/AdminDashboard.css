@@ -1,0 +1,140 @@
+.rightbottom .pageheading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4px 10px;
+  margin: 0 0 5px 0;
+  border-radius: 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.rightbottom .pageheading h6 {
+  font-weight: 700;
+  color: rgb(62, 62, 62);
+  padding: 3px 0;
+  margin: 0;
+}
+.rightbottom .pageheading button {
+  background-color: transparent;
+  height: 25px;
+  margin: 0px 0;
+  margin-left: 4px;
+  padding: 0px 6px 0px;
+  color: rgb(86, 86, 86);
+  border: solid rgb(181, 180, 180) 1px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.rightbottom .pageheading button:hover {
+  background-color: rgb(242, 242, 242);
+  transition: 0.5s;
+}
+.rightbottom .pageheading .headicon {
+  width: 20px;
+  height: 20px;
+  margin-top: -4px;
+  color: rgb(92, 92, 92);
+}
+.rightbottom .pageheading input {
+  margin-right: 0px;
+  height: 25px;
+  color: rgb(86, 86, 86);
+  font-weight: 600;
+  padding: 0px 5px;
+  border: solid rgb(181, 180, 180) 1px;
+  border-radius: 2px;
+}
+.rightbottom .pageheading input::placeholder{
+  color: rgb(86, 86, 86);
+  font-weight: 600;
+}
+.rightbottom .pageheading select {
+  margin-right: 0px;
+  height: 25px;
+  color: rgb(86, 86, 86);
+  padding: 0px 5px;
+  border: solid rgb(181, 180, 180) 1px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+.rightbottom .pageheading input:focus,
+select:focus {
+  outline: none;
+}
+.rightbottom .databox {
+  width: 100%;
+  margin: 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 20px;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.rightbottom .databox h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(34, 34, 34);
+}
+.rightbottom .databox h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.rightbottom .databox .databoxicon {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.rightbottom .designbox {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 30px 0 0;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+@media screen and (max-width: 1050px) {
+  .rightbottom .pageheading h6 {
+    margin: 5px 0;
+  }
+  .rightbottom .pageheading button {
+    margin: 2px 4px 2px 0px;
+  }
+  .rightbottom .pageheading input {
+    margin: 2px 4px 2px 0px;
+  }
+  .rightbottom .pageheading select {
+    margin: 2px 4px 2px 0px;
+  }
+  .rightbottom .pageheading-lg h6 {
+    margin: 5px 0;
+  }
+  .rightbottom .pageheading-lg button {
+    margin: 2px 0px 2px 4px;
+  }
+  .rightbottom .pageheading-lg input {
+    margin: 2px 0px 2px 4px;
+  }
+  .rightbottom .pageheading-lg select {
+    margin: 2px 0px 2px 4px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rightbottom .pageheading h6 {
+    margin: 5px 0;
+  }
+  .rightbottom .pageheading button {
+    margin: 2px 4px 2px 0px;
+  }
+  .rightbottom .pageheading input {
+    margin: 2px 4px 2px 0px;
+  }
+  .rightbottom .pageheading select {
+    margin: 2px 4px 2px 0px;
+  }
+}

@@ -1,0 +1,70 @@
+.customCommentSection {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+}
+
+.customTextarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: none;
+}
+
+.customTextarea:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 10px rgba(128, 189, 255, 0.25);
+}
+
+.customSubmitButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.customSubmitButton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+}
+
+.customCommentBox {
+    border-bottom: 1px solid #e9ecef;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.customCommentBox h3 {
+    margin: 5px 0;
+    color: #495057;
+}
